@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="wuchou.ssms.MainActivity" >
+
+    <item
+        android:id="@+id/taokey"
+        android:orderInCategory="100"
+        android:title="Tạo key"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/themkey"
+        android:orderInCategory="100"
+        android:title="Thêm PublicKey"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/dsPublicKey"
+        android:orderInCategory="100"
+        android:title="Danh sách public key"
+        app:showAsAction="never"/>
+
+</menu>
