@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/ed_tendangky"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:background="@drawable/ed_shape"
+            android:gravity="center"
+            android:hint="Tên đăng nhập" >
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/ed_passDk1"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:background="@drawable/ed_shape"
+            android:gravity="center"
+            android:hint="Mật khẩu"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/ed_passDk2"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:background="@drawable/ed_shape"
+            android:gravity="center"
+            android:hint="Nhập lại mật khẩu"
+            android:inputType="textPassword" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/btnDangKy"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_margin="@dimen/activity_vertical_margin"
+                android:background="@drawable/btn_shape"
+                android:gravity="center"
+                android:text="Đăng ký"
+                android:textColor="#ffffff" />
+
+            <Button
+                android:id="@+id/btnXoaTrang"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_margin="@dimen/activity_vertical_margin"
+                android:background="@drawable/btn_shape2"
+                android:gravity="center"
+                android:text="Làm lại"
+                android:textColor="#ffffff" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
